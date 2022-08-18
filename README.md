@@ -1,1 +1,1 @@
-# minjung-freesia.github.io
+# MinjungPark1.github.io
