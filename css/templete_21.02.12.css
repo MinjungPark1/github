@@ -1,0 +1,280 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding:0px;
+    margin:0px;
+    background-color: white;
+    min-width:1200px;
+}
+.clearfix {
+    overflow: auto;
+  }
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+a{
+    text-decoration: none;
+
+}
+
+.header{
+    width: 80%;
+    height: 150px;
+    margin: 0px auto;
+    /*background:brown;*/
+    margin-bottom: 80px;
+    
+    
+    
+    
+}
+
+
+
+
+.bottomleft{
+    float:left;
+    width:50%;
+    
+   /* background:lightcoral;*/
+    
+    
+}
+.bottomleft h1{
+    margin:0px;
+    float: left;
+    font-family: 'Poppins', sans-serif;
+    font-weight:500;
+    font-size: 14px;
+    letter-spacing: 4px;
+    text-decoration: none;
+    color: rgb(122, 122, 122);
+    padding-top: 40px;
+}
+
+
+.bottomright{
+    float:right;
+    font-family: 'Poppins', sans-serif;
+    /*background:hotpink;*/
+    padding-top:42px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    word-spacing: 38px;
+    
+}
+
+.bottomright a{
+    text-decoration:none;
+    color: rgb(177, 177, 177);
+}
+
+.bottomright a:hover{
+    color: rgb(253, 78, 78);
+    font-weight: 600;
+}
+
+
+
+
+.body{
+    /*background: red;*/
+    width: 80%;
+    height: auto;
+    /* margin-left: 258px; */
+    padding-top:0px;
+    margin: 0px auto;
+    margin-bottom: 0px;
+    display: block; 
+}
+
+.title h1{
+    
+    font-family: 'Poppins', sans-serif;
+    /*background:hotpink;*/
+    
+    font-size: 19px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-decoration: none;
+    color: purple;
+    padding-bottom: 0px;
+
+
+    /*
+    color: rgb(253, 78, 78);*/
+
+    display: block;
+    
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+
+}
+
+.subtitle p{
+ 
+    font-family: 'Poppins', sans-serif;
+    /*background:pink;*/
+    
+
+
+    
+    
+
+    
+
+
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    text-decoration: none;
+    line-height:17px;
+    color: rgb(199, 199, 199);
+
+
+    
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+    margin-bottom: 50px;
+
+    
+}
+
+.introduction{
+    display:block;
+
+
+    /*background: yellowgreen;*/
+    width: 100%;
+    height: 300px;
+    margin-bottom:50px;
+    
+}
+
+.introsimple{
+    float:left;
+    width: 100%;
+    height: 250px;
+    background-color: green;
+
+    display: block;
+
+}
+
+
+.introsimple h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight:600;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    color: rgb(87, 87, 87);
+    line-height: 17px;
+    margin-block-start: 1.67em;
+    margin-block-end: 0.8em;
+    
+}
+
+.introsimple p{
+    font-family: 'Poppins', sans-serif;
+    font-weight:400;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    color: rgb(87, 87, 87);
+    line-height: 17px;
+
+    margin-block-start: 1.67em;
+    margin-block-end: 0.8em;
+
+
+}
+
+
+
+section.allSize1{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    margin-bottom: 45px;
+    overflow: hidden;
+}
+section.allSize1 .full{
+    width: 100%;
+    position: relative; 
+    padding-bottom: 56.25%;
+    height:0; 
+    overflow:hidden;
+}
+.full iframe,
+.full object,
+.full embed { 
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    height:100%; 
+}
+
+
+
+
+section.allSize2{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    margin-bottom: 45px;
+    overflow: hidden;
+}
+section.allSize2 .full2{
+    width: 100%;
+    position: relative; 
+    padding-bottom: 56.25%;
+    height:0; 
+    overflow:hidden;
+}
+.full2 iframe,
+.full2 object,
+.full2 embed { 
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    height:100%; 
+}
+
+
+.end{
+    width:80%;
+    /*background-color: aqua;*/
+    margin: 0px auto;
+    margin-bottom: 80px;
+    margin-top: 50px;
+    float: center;
+
+}
+
+.end h4{
+    /*background-color: blanchedalmond;*/
+    float: right;
+    color:  rgb(78, 78, 78);
+    font-size: 10px;
+    font-weight:300;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    
+    
+    
+       
+
+}

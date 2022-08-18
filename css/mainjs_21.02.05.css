@@ -1,0 +1,482 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding:0px;
+    margin:0px;
+    background-color: white;
+    min-width:1200px;
+}
+.clearfix {
+    overflow: auto;
+  }
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+a{
+    text-decoration: none;
+
+}
+
+.header{
+    width: 80%;
+    height: 150px;
+    margin: 0px auto;
+    /*background:brown;*/
+    margin-bottom: 80px;
+    
+    
+    
+    
+}
+
+
+
+
+.bottomleft{
+    float:left;
+    width:50%;
+    
+   /* background:lightcoral;*/
+    
+    
+}
+.bottomleft h1{
+    margin:0px;
+    float: left;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight:500;
+    font-size: 14px;
+    letter-spacing: 6px;
+    text-decoration: none;
+    color: rgb(158, 158, 158);
+    padding-top: 40px;
+}
+
+
+.bottomright{
+    float:right;
+    font-family: 'Noto Sans KR', sans-serif;
+    /*background:hotpink;*/
+    padding-top:42px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    word-spacing: 38px;
+    
+}
+
+.bottomright a{
+    text-decoration:none;
+    color: rgb(177, 177, 177);
+}
+
+.bottomright a:hover{
+    color: rgb(255, 108, 108);
+    font-weight: 600;
+}
+
+.introself{
+    width: 80%;
+    height: 90px;
+    margin: 0px auto;
+    /*background:yellow;
+
+    margin-bottom: 55px;*/
+    
+
+    
+
+}
+
+.introself h1{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight:700;
+    font-size: 19px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: purple;
+    
+    
+
+}
+
+.introself h2{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight:400;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height:7px;
+    text-decoration: none;
+    color: rgb(199, 199, 199);
+    
+
+}
+
+
+.body{
+    /*background: red;*/
+    width: 80%;
+    height: auto;
+    /* margin-left: 258px; */
+    padding-top:0px;
+    margin: 0px auto;
+    margin-bottom: 0px;
+    display: block;
+
+    
+}
+
+
+/*
+.dropbtn{
+    background-color:rgb(206,206,206);
+    height: 40px;
+    width: 40px;
+    border: none;
+    cursor: pointer;
+    background-image: url(../images/list.png);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.dropdown{
+    position: relative;
+    display: block;
+    float: right;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    right:0;
+    background-color: rgb(206,206,206);
+    min-width : 135px;
+    z-index:1;
+    
+}
+
+.dropdown-content a{
+    font-family: 'Quicksand', sans-serif;
+    color:purple;
+    padding: 7px 7px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: purple;
+    color:  rgb(206,206,206);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: purple;
+}
+*/
+
+.project {
+    display:block;
+/*background: yellowgreen;*/
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    
+    
+    
+}
+
+
+.left{
+    float: left;
+    width: 48%;
+/*background-color: lightgreen;*/
+    display: block;
+    height: auto;
+}
+
+.right{
+    float: right;
+    width : 48%;
+/*background-color: lightskyblue;*/
+    display: block;
+    height: auto;
+}
+
+
+
+.leftpic1{
+    margin:0px;
+    background-image: url(../images/ui_appstore.png);
+    
+    height: 413px;
+    width: 100%;
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 40px;
+
+
+}
+
+.leftpic2{
+    margin:0px;
+    background-image: url(../images/graphic_pramsie.png);
+    height: 413px;
+    width: 100%;
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 40px;
+
+
+}
+
+.leftpic3{
+    margin:0px;
+    background-image: url(../images/product_chair.png);
+    height: 413px;
+    width: 100%;
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.leftpic4{
+    margin:0px;
+    background-image: url(../images/ui_appstore.png);
+    height: 413px;
+    width: 100%;
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.leftpic5{
+    margin:0px;
+    background-image: url(../images/ui_appstore.png);
+    height: 413px;
+    width: 100%;
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.leftpic6{
+    margin:0px;
+    background-image: url(../images/ui_appstore.png);
+    height: 413px;
+    width: 100%;
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.leftpic7{
+    margin:0px;
+    background-image: url(../images/ui_appstore.png);
+    height: 413px;
+    width: 100%;
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+
+
+.rightpic1{
+    margin:0px;
+    background-image: url(../images/graphic_redesign1.png);
+    background-position: 50%,30%;
+    float: right;
+    height: 413px;
+    width: 100%;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 40px;
+    
+    
+
+
+}
+
+.rightpic2{
+    margin:0px;
+    background-image: url(../images/product_dryer.png);
+    
+    height: 413px;
+    width: 100%;
+    float: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 40px;
+
+
+}
+
+.rightpic3{
+    margin:0px;
+    background-image: url(../images/product_tapedispenser.png);
+    
+    height: 413px;
+    width: 100%;
+    float: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 40px;
+
+
+}
+
+.rightpic4{
+    margin:0px;
+    background-image: url(../images/graphic_redesign1.png);
+    
+    height: 413px;
+    width: 100%;
+    float: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 40px;
+
+
+}
+
+.rightpic5{
+    margin:0px;
+    background-image: url(../images/graphic_redesign1.png);
+    height: 413px;
+    width: 100%;
+    float: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.rightpic6{
+    margin:0px;
+    background-image: url(../images/graphic_redesign1.png);
+    
+    height: 413px;
+    width: 100%;
+    float: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 1s ease;
+    background-color:purple;
+
+}
+
+.leftpic1:hover .overlay{
+    opacity: 0.8;
+  }
+
+.leftpic2:hover .overlay{
+    opacity: 0.8;
+  }
+
+  .leftpic3:hover .overlay{
+    opacity: 0.8;
+  }
+
+  .leftpic4:hover .overlay{
+    opacity: 0.8;
+  }
+
+  .leftpic5:hover .overlay{
+    opacity: 0.8;
+  }
+
+  .leftpic6:hover .overlay{
+    opacity: 0.8;
+  }
+  .leftpic7:hover .overlay{
+    opacity: 0.8;
+  }
+
+.rightpic1:hover .overlay{
+    opacity: 0.8;
+  }
+.rightpic2:hover .overlay{
+    opacity: 0.8;
+  }
+
+  .rightpic3:hover .overlay{
+    opacity: 0.8;
+  }
+
+  .rightpic4:hover .overlay{
+    opacity: 0.8;
+  }
+
+  .rightpic5:hover .overlay{
+    opacity: 0.8;
+  }
+
+  .rightpic6:hover .overlay{
+    opacity: 0.8;
+  }
+
+.text{
+    color:  lightgray;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 500;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  .end{
+      color:  gray;
+      font-size: 15px;
+      font-family: 'Raleway', sans-serif;
+      letter-spacing: 2px;
+      float: right;
+      margin: 70px;
+
+  }

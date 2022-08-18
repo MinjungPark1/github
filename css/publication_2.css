@@ -1,0 +1,540 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    /*max-width: 890px;*/
+    padding:0px;
+    margin:0px;
+    background-color:white ;
+    
+}
+.clearfix {
+    overflow: auto;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    margin: 0px auto;
+    /*background:brown;*/
+    
+       
+    
+}
+
+.bottom{
+    width: 92%;
+    height: auto;
+    margin: 0px auto;
+    /*background:yellow;*/
+    
+    
+
+}
+
+
+
+
+.bottomleft{
+    float:left;
+    width:45%;
+    
+    /*background:lightcoral;*/
+}
+
+.bottomleft h1 a{
+    margin:0px;
+    float: left;
+    font-family: 'Poppins', sans-serif;
+    font-weight:600;
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+    /*color: #ff598b;*/
+    color:rgb(247, 23, 135);
+    padding-top: 2.6rem;
+    text-decoration:none;
+    /*background:hotpink;*/
+}
+
+
+
+.bottomleft h1 a:hover{
+    margin:0px;
+    float: left;
+    font-family: 'Poppins', sans-serif;
+    font-weight:600;
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+    color: rgb(31, 31, 31);
+    padding-top: 2.6rem;
+    text-decoration:none;
+}
+
+
+
+
+
+.bottomright{
+    float:right;
+    font-family: 'Poppins', sans-serif;
+    /*background:hotpink;*/
+    padding-top:2.7rem;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+    font-weight: 300;
+    word-spacing: 38px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.bottomright li{
+    list-style: none;
+}
+
+
+.bottomright a{
+    text-decoration:none;
+    color: rgb(56, 56, 56);
+    font-weight: 300;
+    margin: 1.3rem;
+    
+    
+}
+
+.bottomright a:hover{
+    color: rgb(247, 70, 158);
+    font-weight: 500;
+}
+
+
+
+/*
+.introright h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight:400;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: rgb(253, 78, 78);
+    margin-bottom: 21px;
+    
+
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+.publicationcontents{
+    width: 80%;
+    height: auto;
+   /* background-color: rgb(133, 133, 172);*/
+    padding-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    
+
+    
+}
+
+
+.publicationinfo{
+    
+    width: 25%;
+    height: auto;
+    /*background-color: burlywood;*/
+    
+
+}
+
+.publicationinfo h1{
+    text-align: right;
+    font-size: 1.15rem;    
+    font-family: 'Poppins', sans-serif;
+    color: rgb(170, 170, 170);
+    font-weight:500;
+    margin-bottom: 1.35rem;
+    margin-right: 3.5rem;
+   
+    
+    
+   
+    
+
+}
+
+
+
+.publication{
+    
+    width: 75%;
+    height: auto;
+    /*background:lightblue;*/
+    
+}
+
+.publication h1{
+    
+    
+    margin-bottom: 1rem;
+    font-size: 1.15rem;    
+    font-family: 'Poppins', sans-serif;
+    color: rgb(229, 160, 171);
+    border-bottom: solid 1px #e8e8e8;
+    
+
+}
+
+.paper{
+ 
+    margin-bottom: 1.4rem;
+    
+}
+
+
+.paper h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight:500;
+    color: rgb(32, 32, 32);
+
+}
+
+.paper h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.85rem;
+    font-weight:300;
+    color: rgb(32, 32, 32);
+
+}
+
+.paper h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.85rem;
+    font-weight:300;
+    color: rgb(32, 32, 32);
+
+}
+
+.paper p{
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.7rem;
+    font-weight:300;
+}
+
+
+
+.button1 {
+    background-color: rgb(233, 233, 233); 
+    border-radius: 0.2rem;
+    border: 0.1rem solid rgb(223, 223, 223);
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+  
+.button1:hover {
+    background-color: rgb(229, 160, 171);
+    border: 0.1rem solid rgb(245, 162, 176);
+    color: white;
+}
+
+span.me {
+    color: rgb(247, 70, 158);
+    font-weight: 500;
+}
+
+
+
+.end{
+    width:92%;
+
+    
+    margin: 0px auto;
+    margin-bottom: 2rem;
+
+    float: center;
+
+}
+
+.end h4{
+    /*background-color: blanchedalmond;*/
+    float: right;
+    
+    color:  rgb(78, 78, 78);
+    font-size: 0.6rem;
+    font-weight:300;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;   
+    margin-top: 5.5rem;  
+
+}
+
+.end h5{
+    display: none;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+    body{
+        overflow-x: hidden;
+    }
+
+    nav{
+        overflow-x: hidden;
+    }
+
+    
+    .header{
+        width: 88%;
+    }
+      
+    .bars {
+        position: absolute;
+        height: 13px;
+        width: 21px;
+        top: 17px;
+        right: 15px;
+        cursor: pointer;
+        z-index: 1;
+    }
+      
+    .bars span {
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: black;
+    }
+      
+    .bar-2, .bar-3 {
+        margin-top: 3px;
+    }
+      
+    .bar-1, .bar-3 {
+        transition: 0.5s all;
+        -webkit-transition: 0.5s all;
+        -moz-transition: 0.5s all;
+        -o-transition: 0.5s all;
+    }
+      
+    .menu-item {
+        position: absolute;
+        top: -220px;
+        right: -200px;
+        background: rgba(255, 67, 173, 0.2);
+        box-shadow: 0px 0px 5px rgba(255, 67, 173, 0.2);
+        width: 400px;
+        height: 450px;
+        border-bottom-left-radius: 200px;
+        margin-right: -200px;
+        transition: 0.5s all;
+        -webkit-transition: 0.5s all;
+        -moz-transition: 0.5s all;
+        -o-transition: 0.5s all;
+    }
+      
+    .item-list{
+        position: absolute;
+        top: 250px;
+        right: 250px;
+        color: #FFF;
+        margin-right: -200px;
+        transition: 1s all;
+        -webkit-transition: 1s all;
+        -moz-transition: 1s all;
+        -o-transition: 1s all;
+        
+    }
+      
+    .item-list li {
+        list-style: none;
+        font-size: 0.75;  
+        margin-bottom: 1rem;
+        
+    }
+      
+    .greet {
+        position: absolute;
+        bottom: 50px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+      
+    .greet p {
+        color: #FFF;
+        font-size: 60%;
+        letter-spacing: 1px;
+    }
+      
+    .greet span a {
+        color: #5C6BC0;
+        letter-spacing: 2px;
+    }
+
+
+    /*
+    .container-p {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+    }
+  
+    .container {
+        cursor : pointer;
+        width: 1rem;
+        height: 1.4rem;
+        background: rgb(247, 70, 158);}
+  
+    .bar {
+        width: 1.8rem;
+        height: 0.28rem;
+        background: black;
+        position: relative;
+    }
+  
+    .bar::before {
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 100%;
+        background: black;
+        top: -10px;}
+  
+    .bar::after {
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 100%;
+        background: black;
+        top: 10px;
+    }
+
+    */
+
+    .bottomleft h1 a{
+        font-size: 0.92rem;
+        margin-top: 0;
+    }
+
+    .bottomright a{
+        
+        
+        
+        font-weight: 400;
+    }
+
+    
+
+    
+   
+
+    
+    .publicationcontents{
+        width: 80%;
+        height: auto;
+        padding-top: 3rem;
+       
+        margin: 0px auto;
+        
+        flex-grow: 0;
+
+    }
+        
+    
+    .publicationinfo{
+        
+        /*background:lightblue;*/
+        width: 100%;
+        margin-bottom: 1.4rem;
+         
+    }
+    .publicationinfo h1{
+        text-align: left;
+        font-size:0.92rem;
+
+    }
+
+    
+    .publication{
+    
+        width: 100%;
+        height: auto;
+        /*background:lightblue;*/
+    
+    }
+
+    .publication h1{
+        font-size:0.92rem;
+    }
+
+    .paper h2{
+        font-size:0.8rem;
+    }
+
+    .paper h3{
+        font-size:0.68rem;
+    }
+
+    .paper h4{
+        font-size:0.68rem;
+    }
+
+    .paper p{
+        font-size: 0.56rem;
+    }
+
+    .end h4{
+        display: none;
+    }
+
+    .end h5{
+        display: block;
+        float: right;
+        font-size: 0.3rem;
+
+        color:  rgb(124, 124, 124);
+    
+        font-weight:300;
+        font-family: 'Poppins', sans-serif;
+        letter-spacing: 0rem;   
+
+    }
+
+    
+
+    
+
+
+
+}
+
+
+

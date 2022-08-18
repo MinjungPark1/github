@@ -1,0 +1,286 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding:0px;
+    margin:0px;
+    background-color:white ;
+    
+}
+.clearfix {
+    overflow: auto;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    margin: 0px auto;
+    /*background:brown;*/
+    
+       
+    
+}
+
+.bottom{
+    width: 86%;
+    height: 150px;
+    margin: 0px auto;
+    /*background:yellow;*/
+    
+    
+
+}
+
+
+
+
+.bottomleft{
+    float:left;
+    width:45%;
+    
+    /*background:lightcoral;*/
+}
+
+.bottomleft h1{
+    margin:0px;
+    float: left;
+    font-family: 'Poppins', sans-serif;
+    font-weight:500;
+    font-size: 0.87rem;
+    letter-spacing: 0.25rem;
+    text-decoration: none;
+    color: rgba(126, 69, 229, 1);
+    padding-top: 40px;
+    text-decoration:none;
+}
+
+.bottomleft h1:hover{
+    color: rgb(69, 210, 229);
+    font-weight: 500;
+}
+
+
+.bottomright{
+    float:right;
+    font-family: 'Poppins', sans-serif;
+    /*background:hotpink;*/
+    padding-top:42px;
+    font-size: 0.75rem;
+    letter-spacing: 0.1rem;
+    font-weight: 300;
+    word-spacing: 38px;
+    
+}
+
+
+.bottomright a{
+    text-decoration:none;
+    color: rgb(177, 177, 177);
+    font-weight: 500;
+    
+}
+
+.bottomright a:hover{
+    color: rgba(126, 69, 229, 1);
+    font-weight: 500;
+}
+
+.main{
+    margin-top: 10rem;
+    /*background-color: #fde428;*/
+    width: 86%;
+    height: auto;
+    margin: 0px auto;
+    margin-top: 6rem;
+
+}
+
+.year{
+    width:15rem;
+    height: 1000px;
+    /*background-color: aqua;*/
+    float:left;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(126, 69, 229, 1);
+    font-weight:500;
+    font-size: 1rem;
+    text-decoration: none;
+    
+
+}
+
+
+.paper{
+    padding-left: 10rem;
+    margin-bottom: 3rem;
+}
+
+
+.paper h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight:500;
+    color: rgb(32, 32, 32);
+
+}
+
+.paper h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.85rem;
+    font-weight:300;
+    color: rgb(32, 32, 32);
+
+}
+
+.paper h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.85rem;
+    font-weight:300;
+    color: rgb(32, 32, 32);
+
+}
+
+.button {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.85rem;
+    margin: 0px 0px;
+    cursor: pointer;
+    border-radius: 0.75rem;
+}
+
+
+
+.newsright p{
+    margin-left: 7%;
+   
+}
+
+
+
+span.date {
+    color: rgb(158, 158, 158);
+}
+
+
+
+
+
+
+@media (max-width: 800px) {
+    input[type=checkbox]:fous{background:none;}
+    label {float:right; padding:4px 0px; display:inline-block; cursor:pointer; margin-bottom: 10px; background-color:#fde428; background-image: url(../images/toggle.png) }
+    input[type=checkbox]:checked ~ nav {display:block; }
+
+    nav{display:none; position:absolute; right:75px; top:222px; background-color:rgb(78, 133, 253); padding:10px; z-index:99;}
+    nav ul{width:auto;}
+    nav ul li{float:none; padding:0px; width:100%; display:table;}
+    nav ul li a{color:#FFF; font-size:15px; padding:10px 20px; display:block; border-bottom: 1px solid rgba(225,225,225,0.1);}
+    nav ul li a i{color:#fde428; padding-right:13px;}
+
+    .bottomright a{
+        text-decoration:none;
+        color: rgb(221, 10, 10);
+        font-weight: 500;
+    }
+
+    .left{
+        width:0%;
+        font-size: 0px;
+    }
+
+    .right{
+        width:100%;
+    }
+    .body{
+        
+        padding-top:100px;
+        
+    }
+
+    
+   
+    
+    
+    
+
+}
+
+
+@media (max-width: 600px) {
+
+    .bottomright a{
+        text-decoration:none;
+        color: rgb(28, 221, 10);
+        font-weight: 500;
+    }
+
+    .left{
+        width:0%;
+        font-size: 0px;
+    }
+
+    .right{
+        width:100%;
+    }
+
+    .body{
+        
+        padding-top:100px;
+        
+    }
+
+    .introself{
+        background-color: sandybrown;
+        
+        margin-top: 20px;
+        margin-bottom:20px;
+    }
+
+    
+
+
+
+
+}
+
+
+
+
+.end{
+    width:80%;
+    /*background-color: aqua;*/
+    margin: 0px auto;
+    margin-bottom: 120px;
+    margin-top: 50px;
+    float: center;
+
+}
+
+.end h4{
+    /*background-color: blanchedalmond;*/
+    float: right;
+    color:  rgb(78, 78, 78);
+    font-size: 10px;
+    font-weight:300;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;   
+    margin-top: 100px;   
+
+}

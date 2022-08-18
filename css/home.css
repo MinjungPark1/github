@@ -1,0 +1,455 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    
+    padding:0px;
+    margin:0px;
+    background-color:white ;
+    
+}
+.clearfix {
+    overflow: auto;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    margin: 0px auto;
+    /*background:brown;*/
+    
+       
+    
+}
+
+.bottom{
+    width: 92%;
+    height: 150px;
+    margin: 0px auto;
+    /*background:yellow;*/
+    
+    
+
+}
+
+
+
+
+.bottomleft{
+    float:left;
+    width:45%;
+    
+    /*background:lightcoral;*/
+}
+
+.bottomleft h1 a{
+    margin:0px;
+    float: left;
+    font-family: 'Poppins', sans-serif;
+    font-weight:600;
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+    /*color: #ff598b;*/
+    color:rgb(247, 23, 135);
+    padding-top: 2.6rem;
+    text-decoration:none;
+    /*background:hotpink;*/
+}
+
+
+
+.bottomleft h1 a:hover{
+    margin:0px;
+    float: left;
+    font-family: 'Poppins', sans-serif;
+    font-weight:600;
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+    color: rgb(142, 85, 248);
+    padding-top: 2.6rem;
+    text-decoration:none;
+}
+
+
+.bottomright{
+    float:right;
+    font-family: 'Poppins', sans-serif;
+    /*background:hotpink;*/
+    padding-top:2.7rem;
+    font-size: 0.85rem;
+    letter-spacing: 0.1rem;
+    font-weight: 300;
+    word-spacing: 2.7rem;
+    
+}
+
+
+.bottomright a{
+    text-decoration:none;
+    color: rgb(56, 56, 56);
+    font-weight: 400;
+    
+}
+
+.bottomright a:hover{
+    color: rgb(248, 42, 145);
+    font-weight: 500;
+}
+
+
+
+
+.introself{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    
+    margin: 0px auto;
+
+    margin-top:6rem;
+    
+    
+}
+
+
+.introleft{
+    
+    width: 25%;
+    padding-top: 1.9rem ;
+   
+    margin: 0px auto;
+    /*background:lightpink;*/
+    
+}
+
+.introright{
+    width: 65%;
+    height: auto;
+    /*background-color: aqua;*/
+
+}
+
+.self{
+    
+    
+    height: auto;
+    
+    color: rgb(#333333);
+    padding-bottom: 5rem;
+    
+   /* background:blue;*/
+ 
+}
+
+/*
+.introright h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight:400;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: rgb(253, 78, 78);
+    margin-bottom: 21px;
+    
+
+}*/
+
+
+
+
+
+
+
+
+.self h1{
+    color: rgb(65, 65, 65);
+    margin-bottom: 1rem;
+    letter-spacing: 0.12rem;
+    font-size: 1.75rem;
+    line-height: 2.6rem;
+    font-weight:500;
+    font-family: 'Poppins', sans-serif;
+    
+
+    
+
+}
+
+
+
+.self p{
+    
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    font-weight:300;
+    font-size: 0.90rem;
+    letter-spacing: 0.01rem;
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+    margin-bottom: 1rem;
+    /*background:hotpink;*/
+    padding: 0px;
+    line-height: 1.45rem;
+    
+    
+    
+}
+
+
+.self p a{
+    
+    font-family: 'Poppins', sans-serif;
+    width: 94%;
+    font-weight:500;
+    font-size: 0.90rem;
+    letter-spacing: 0.01rem;
+    text-decoration: none;
+    color: rgb(229, 160, 171);
+    margin-bottom: 1rem;
+    /*background:hotpink;*/
+    padding: 0px;
+    line-height: 1.8rem; 
+}
+
+.self p a:hover{
+    
+    color:rgb(248, 42, 145);
+}
+
+
+.contactmessage{
+    
+    
+    
+    font-family: 'Poppins', sans-serif;
+    /*background:hotpink;*/
+    margin:0px;
+    font-size: 0.85rem;
+    letter-spacing: 0.15rem;
+    font-weight: 300;
+    word-spacing: 1.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    /*justify-content: space-between;*/
+    
+}
+
+.button {
+    background-color: rgb(248, 42, 145);/* Green */
+    border: none;
+    color: white;
+    padding: 0.12rem 0.3rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.85rem;
+    letter-spacing: 0.21rem;
+    font-weight: 300;
+    word-spacing: 2.8rem;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 0.2rem;
+    margin-right: 1rem;
+}
+
+.button1 {
+    background-color: rgb(255, 255, 255); 
+    color: rgb(248, 42, 145); 
+    border: 0.1rem solid rgb(255, 95, 175);
+    font-weight: 400;
+}
+  
+.button1:hover {
+    background-color: rgb(248, 42, 145);
+    color: white;
+}
+
+.button2 {
+    background-color: rgb(243, 243, 243); 
+    border: 0.085rem solid rgb(224, 224, 224);
+    color: rgb(248, 42, 145); 
+    
+    font-weight: 400;
+}
+  
+.button2:hover {
+    background-color: rgb(248, 42, 145);
+    color: white;
+}
+
+
+
+.detailnews{
+    
+    margin: 0px auto;
+    /*background-color: yellow;*/
+}
+
+.table{
+    
+    padding: 10px;
+
+}
+
+.table tr td{
+    vertical-align: text-top;
+}
+
+.td{
+    padding: 10px;
+    background-color: aquamarine;
+}
+
+
+.newsright h1{
+    border-bottom: solid 1px #e8e8e8;
+ 
+    margin-bottom: 1rem;
+    font-size: 1.35rem;    
+    font-family: 'Poppins', sans-serif;
+    color: rgb(#333333);
+    
+
+}
+
+.newsgroup{
+    display: flex;
+    background-color: aquamarine;
+}
+
+.newsgroup h4{
+    color: rgb(158, 158, 158);
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.90rem;
+    font-weight:300;
+   
+
+    background-color: burlywood;
+    margin-right: 1rem;
+}
+
+.newsgroup p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.90rem;
+    font-weight:300;
+    color: #333333;
+    background-color: chartreuse;
+}
+
+
+.newsright p{
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.90rem;
+    font-weight:300;
+    display: flex;
+    
+}
+
+span.date {
+    color: rgb(158, 158, 158);
+    
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+    .bottomright a{
+        text-decoration:none;
+        /*color: rgb(28, 221, 10);*/
+        font-weight: 400;
+    }
+    .introleft{
+        width:65%;
+        margin-bottom: 1.5rem;
+       
+    }
+
+    .contactmessage{
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 0.68rem;
+    }
+
+    
+
+    .introself{
+        /*background-color: sandybrown;*/
+        
+        margin-top: 3rem;
+        
+    }
+
+    .introright{
+        width:100%
+    }
+
+    .self h1{
+   
+        font-size: 1.4rem;
+    }
+
+    .self p a{
+        font-size: 0.72rem;
+    }
+
+    .button{margin-bottom: 0.68rem;}
+
+    .newsright h1{
+        font-size: 1.08rem;
+    }
+
+    .newsgroup h4{
+        font-size: 0.72rem;
+    }
+    
+    .newsgroup p{
+        font-size: 0.72rem;
+    }
+
+
+
+
+}
+
+
+
+
+.end{
+    width:92%;
+    /*background-color: aqua;*/
+    margin: 0px auto;
+    margin-bottom: 2rem;
+
+    float: center;
+
+}
+
+.end h4{
+    /*background-color: blanchedalmond;*/
+    float: right;
+    color:  rgb(78, 78, 78);
+    font-size: 0.6rem;
+    font-weight:300;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;   
+    margin-top: 5.5rem;  
+    
+
+}
